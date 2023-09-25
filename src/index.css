@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --blue: #049CD8;
+  --red: #e52521;
+  --yellow: #FBD000;
+  --green: #43b047;
 }
 
 #root {
