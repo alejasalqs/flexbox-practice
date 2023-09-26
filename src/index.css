@@ -20,7 +20,23 @@
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: repeat(2, 1fr); */
+}
+
+main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+@media (prefers-color-scheme: light) {
+  html, body {
+    color: #000;
+    background-color: #fff;
+  }
+}
+
 
